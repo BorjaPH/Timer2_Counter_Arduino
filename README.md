@@ -4,6 +4,8 @@ A counter of seconds with two integer values and two fractionary values using fo
 
 It also has a digital output to show as a PWM the period that moves forward the counter (this pulses have a duration of 10 ms).
 
+Apart from that, it has a variety of comands that can be put in the serial terminal like "pause on" "pause off" "up" "down" or "period [number]" (the last one change the period of the counter)
+
 The hardware montage is the same as described in the schematic below: 
 
 ![image](https://user-images.githubusercontent.com/68208538/135000263-b79fbce7-a1c1-452c-8467-5c7a05512496.png)
